@@ -10,12 +10,6 @@ class BankAccount {
     int transactions = 0;
     String transactionHistory = "";
 
-    // BankAccount(String name, String userName, String password, String accountNo) {
-    // this.name = name;
-    // this.userName = userName;
-    // this.password = password;
-    // this.accountNo = accountNo;
-    // }
 
     public void register() {
         Scanner sc = new Scanner(System.in);
@@ -177,7 +171,7 @@ public class AtmInterface {
     public static void main(String[] args) {
 
         System.out.println("PROJECT:Oasis Infobyte Internship");
-        System.out.println("\n**********WELCOME TO Ayush's ATM SYSTEM**********\n");
+        System.out.println("\n**********WELCOME TO ATM SYSTEM**********\n");
         System.out.println("1.Register \n2.Exit");
         System.out.print("Enter Your Choice - ");
         int choice = takeIntegerInput(2);
